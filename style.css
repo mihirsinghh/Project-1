@@ -30,31 +30,43 @@ Home page classes
     margin: 0em 15em; /*sets margin of 0 on T/B and 15x size relative to parent element on L/R*/
 }
 
+
 .inner-box {
     background-color: rgb(17, 0, 143);
     height: 70%; /*height of this element will be 70% of parent element's height*/
-    opacity: 0;
     position: relative;
+    opacity: 0;
     top: 10vh; /*element will be positioned at 10% of the viewport height*/
     margin: 0em 3em; /*sets a margin of 0 on T/B and 3x size relative to parent element on L/R*/
 }
 
 
+
 .intro-text {
     position: relative;
     left: 40em;
-    bottom: 24em;
+    bottom: 26em;
     font-size: 0.8rem;
 }
 
 .intro-text-line-1 {
     margin-left: 2.3em; /*element margin will be 2.3x parent element's font size*/
+    position: relative;
+    top: 1em;
     color: orange;
     font-size: 2em;
 }
 
+.intro-text-line-3 {
+    color: rgb(255, 166, 0);
+    font-size: 1.5em;
+    position: relative;
+    bottom: 1.5em;
+}
+
 .homepage-links {
     position: relative;
-    left: 20em;
-    bottom: 15em;
+    left: 25em;
+    bottom: 20em;
+    opacity: 0.65;
 }
