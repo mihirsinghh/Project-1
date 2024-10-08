@@ -1,36 +1,48 @@
-#home-page{
-    background-color: rgb(24, 20, 87);
-    height: 100vh; /*element will be 100% of the viewport height*/
-}
-
 /*
 Classes
 */
+
+.home-page {
+    background-color: rgb(7, 3, 65);
+    height: 100vh; /*element will be 100% of the viewport height*/
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('milky way.jpg');
+    background-size: contain;
+    background-position: center;
+}
 
 .header {
     color: orange;
 
     position: relative;
     top: 8vh;
-    left: 5vh;
+    left: 3vh;
 
     display: flex;
     justify-content: space-around;
-    margin: 0em 10em; /*sets margin of 0 on T/B and 10 relative to parent element on L/R*/
+    margin: 0em 15em; /*sets margin of 0 on T/B and 15x size relative to parent element on L/R*/
 }
 
 .inner-box {
-    background-color: rgb(50, 13, 78);
-    height: 70%; /*height of this element will be 10% of parent element's height*/
-
+    background-color: rgb(17, 0, 143);
+    height: 70%; /*height of this element will be 70% of parent element's height*/
+    opacity: 0;
     position: relative;
-    top: 10vh; /*element will be positioned at 30% of the viewport height*/
-    margin: 0em 3em; /*sets a margin of 0 on T/B and 5 relative to parent element on L/R*/
+    top: 10vh; /*element will be positioned at 10% of the viewport height*/
+    margin: 0em 3em; /*sets a margin of 0 on T/B and 3x size relative to parent element on L/R*/
 }
 
 .intro-text {
     position: relative;
-    left: 100px;
+    left: 13em;
+    bottom: 20em;
     font-size: 0.8rem;
     color: white;
 }
