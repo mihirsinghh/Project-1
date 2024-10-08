@@ -13,7 +13,7 @@ Home page classes
     right: 0;
     width: 100%;
     height: 100%;
-    background-image: url('milky way.jpg');
+    background-image: url('galaxy 2.jpg');
     background-size: contain;
     background-position: center;
 }
@@ -51,4 +51,10 @@ Home page classes
     margin-left: 2.3em; /*element margin will be 2.3x parent element's font size*/
     color: orange;
     font-size: 2em;
+}
+
+.homepage-links {
+    position: relative;
+    left: 20em;
+    bottom: 15em;
 }
