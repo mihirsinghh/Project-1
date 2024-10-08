@@ -9,8 +9,14 @@ Classes
 
 .header {
     color: orange;
+
     position: relative;
-    top: 10vh;
+    top: 8vh;
+    left: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0em 10em; /*sets margin of 0 on T/B and 10 relative to parent element on L/R*/
 }
 
 .inner-box {
