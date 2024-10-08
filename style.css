@@ -1,5 +1,5 @@
 /*
-Classes
+Home page classes
 */
 
 .home-page {
@@ -39,11 +39,16 @@ Classes
     margin: 0em 3em; /*sets a margin of 0 on T/B and 3x size relative to parent element on L/R*/
 }
 
+
 .intro-text {
     position: relative;
-    left: 13em;
-    bottom: 20em;
+    left: 40em;
+    bottom: 24em;
     font-size: 0.8rem;
-    color: white;
 }
 
+.intro-text-line-1 {
+    margin-left: 2.3em; /*element margin will be 2.3x parent element's font size*/
+    color: orange;
+    font-size: 2em;
+}
