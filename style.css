@@ -1,73 +1,31 @@
-body {
-    background-color: blue;
-    animation: flashBackground 0.5s infinite alternate;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    text-align: center;
-    font-size: x-large;
-    transform: rotate(360deg);
-    animation: spin 3s infinite linear, zoom 2s infinite alternate;
+#home-page{
+    background-color: rgb(24, 20, 87);
+    height: 100vh; /*element will be 100% of the viewport height*/
 }
-
-
-h1 {
-    color: rgb(192, 7, 146);
-    animation: 
-    colorChange 1s infinite,
-    bounce 1s infinite;
-    font-size: xx-large;
-}
-@keyframes colorChange {
-    0% { color: red; }
-    50% { color: orange; }
-    100% { color: purple; }
-}
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-30px);
-    }
-}
-
-
-p {
-    color: hotpink;
-    animation: moveText 2s infinite;
-    font-size: smaller;
-    letter-spacing: 5px;
-}
-
-
-a {
-    color: hotpink;
-    animation: bounce 1s infinite alternate;
-    text-decoration: underline dotted rgb(61, 255, 213);
-}
-
-img {
-    border: 5px dotted red;
-    animation: rotateImage 5s infinite;
-    filter: hue-rotate(360deg);
-}
-
-
 
 /*
 Classes
 */
 
-.leftmost-column {
-    flex: 1;
+.header {
+    color: orange;
+    position: relative;
+    top: 10vh;
 }
 
-.about-me {
-    color: yellow;
-    margin: 20px 50px 10px;
-    max-width: 20%;
-    text-align: justify;
+.inner-box {
+    background-color: rgb(50, 13, 78);
+    height: 70%; /*height of this element will be 10% of parent element's height*/
+
+    position: relative;
+    top: 10vh; /*element will be positioned at 30% of the viewport height*/
+    margin: 0em 3em; /*sets a margin of 0 on T/B and 5 relative to parent element on L/R*/
 }
 
-.middle-column {
-    display: flex;
+.intro-text {
+    position: relative;
+    left: 100px;
+    font-size: 0.8rem;
+    color: white;
 }
+
