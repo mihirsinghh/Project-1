@@ -3,7 +3,6 @@ Home page classes
 */
 
 .home-page {
-    background-color: rgb(7, 3, 65);
     height: 100vh; /*element will be 100% of the viewport height*/
 }
 
@@ -16,38 +15,24 @@ Home page classes
     background-image: url('lake sky.jpg');
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .nav-bar {
     color: orange;
 
-    position: relative;
-    top: 8vh;
-    left: 3vh;
-
     display: flex;
     justify-content: space-around;
-    margin: 0em 15em; /*sets margin of 0 on T/B and 15x size relative to parent element on L/R*/
+    flex-direction: row;
+    justify-content: center;
 }
 
 .intro-text {
-    position: relative;
-    font-size: 0.8rem;
-}
-
-.intro-text-line-1 {
-    margin-left: 2.3em; /*element margin will be 2.3x parent element's font size*/
-    position: relative;
-    top: 1em;
     color: orange;
-    font-size: 2em;
-}
-
-.intro-text-line-3 {
-    color: rgb(255, 166, 0);
-    font-size: 1.5em;
-    position: relative;
-    bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .homepage-links {
@@ -61,4 +46,5 @@ Home page classes
 
 .github-link {
     opacity: 0.65;
+    margin-top: 0.5em;
 }
