@@ -14,11 +14,11 @@ Home page classes
     width: 100%;
     height: 100%;
     background-image: url('lake sky.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
-.header {
+.nav-bar {
     color: orange;
 
     position: relative;
@@ -30,22 +30,8 @@ Home page classes
     margin: 0em 15em; /*sets margin of 0 on T/B and 15x size relative to parent element on L/R*/
 }
 
-
-.inner-box {
-    background-color: rgb(17, 0, 143);
-    height: 70%; /*height of this element will be 70% of parent element's height*/
-    position: relative;
-    opacity: 0;
-    top: 10vh; /*element will be positioned at 10% of the viewport height*/
-    margin: 0em 3em; /*sets a margin of 0 on T/B and 3x size relative to parent element on L/R*/
-}
-
-
-
 .intro-text {
     position: relative;
-    left: 40em;
-    bottom: 26em;
     font-size: 0.8rem;
 }
 
@@ -66,8 +52,6 @@ Home page classes
 
 .homepage-links {
     position: relative;
-    left: 30em;
-    bottom: 20em;
 }
 
 .linkedin-link {
