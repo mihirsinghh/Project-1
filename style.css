@@ -51,7 +51,8 @@ Home page classes
 }
 
 .homepage-links {
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .linkedin-link {
@@ -59,8 +60,5 @@ Home page classes
 }
 
 .github-link {
-    position: relative;
-    left: 5em;
-    bottom: 0.5em;
     opacity: 0.65;
 }
