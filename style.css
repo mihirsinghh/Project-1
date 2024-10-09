@@ -68,5 +68,14 @@ Home page classes
     position: relative;
     left: 25em;
     bottom: 20em;
+}
+
+.linkedin-link {
+    opacity: 0.65;
+}
+
+.github-link {
+    position: relative;
+    left: 15em;
     opacity: 0.65;
 }
