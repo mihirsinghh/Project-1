@@ -1,3 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth; /* Smooth scrolling between sections */
+  }
+
+.section {
+    height: 100vh; /* Each section takes up the full viewport height */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: start; /* Center content vertically */
+    text-align: center;
+}
+
+.header {
+    color: orange;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+
+
 /*
 Home page classes
 */
@@ -65,3 +88,11 @@ Home page classes
     opacity: 0.65;
     margin-top: 0.5em;
 }
+
+
+
+/*
+About me page classes
+*/
+
+
