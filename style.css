@@ -5,17 +5,12 @@ body, html {
     scroll-behavior: smooth; /* Smooth scrolling between sections */
   }
 
-.section {
-    height: 100vh; /* Each section takes up the full viewport height */
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: start; /* Center content vertically */
-    text-align: center;
-}
 
 .header {
+    height: 100vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     color: orange;
     font-size: 1.5em;
 }
@@ -98,6 +93,8 @@ Home page classes
 /*
 About me page classes
 */
+
+
 
 
 
