@@ -7,10 +7,10 @@ body, html {
 
 
 .header {
-    height: 100vh;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row; /*Defines the main axis*/
+    justify-content: center; /*Controls horizontal alignment of items along main axis*/
+    align-items: flex-start; /*Controls vertical alignment of items along cross axis*/
     color: orange;
     font-size: 1.5em;
 }
@@ -94,6 +94,13 @@ Home page classes
 About me page classes
 */
 
+.about-section {
+    height: 100vh; /*Makes the height of the element's content equivalent to the viewport height*/
+}
+
+.about-me-text {
+    color: white;
+}
 
 
 
