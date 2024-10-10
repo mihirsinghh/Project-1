@@ -104,11 +104,17 @@ About me page classes
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
-    margin-left: auto;
-    margin-right: 1em;
-    width: fit-content;
+    margin-top: 3em;
+    margin-left: auto; /*Keeps container's left-side margin dynamic depending on how much space exists*/
+    margin-right: 4em;
+    max-width: 42%; /*sets the maximum width of the container to 45% of the viewport width*/
+    white-space: normal; /*Allows text to wrap onto next line once edge of container reached*/
+    word-break: break-word; /*Breaks long, continuous string of text without spaces so that it wraps to next line instead of keeping it on same line*/
 }
 
+.about-me-text p {
+    margin-top: 0.5em;
+}
 
 
 
