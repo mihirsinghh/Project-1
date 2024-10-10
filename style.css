@@ -21,9 +21,8 @@ Home page classes
 .nav-bar {
     color: orange;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     justify-content: center;
+    flex-direction: row;
 }
 
 /*Modifies all a elements whose parent has the nav-bar class*/
@@ -33,10 +32,24 @@ Home page classes
 
 .intro-text {
     color: orange;
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 4em;
+}
+
+.intro-text #line1 {
+    position: relative; /*shifts the first <p> element relative to its position in the <div>*/
+    top: 2em;
+}
+
+.intro-text #line3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 2em;
 }
 
 .homepage-links {
