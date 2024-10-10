@@ -20,11 +20,15 @@ Home page classes
 
 .nav-bar {
     color: orange;
-
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     justify-content: center;
+}
+
+/*Modifies all a elements whose parent has the nav-bar class*/
+.nav-bar a {
+    padding: 1em 2em; /*adjusts spacing within the content of each <a> element and its border*/
 }
 
 .intro-text {
