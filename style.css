@@ -127,7 +127,7 @@ About me page classes
 
 
 /*
-About me page classes
+Skills page classes
 */
 
 .skills-section {
@@ -137,5 +137,23 @@ About me page classes
     align-items: center; /*determines how items are positioned along the cross-axis (row, in this case)*/
 }
 
+.skills-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2em;
+}
 
+.box {
+    width: 20vw;
+    height: 40vh;
+    background-color: white;
+}
 
+.inner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+}
