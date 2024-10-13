@@ -67,13 +67,6 @@ Home page classes
     top: 2em;
 }
 
-.intro-text #line3 {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    bottom: 2em;
-}
-
 .homepage-links {
     display: flex;
     justify-content: center;
@@ -96,25 +89,40 @@ About me page classes
 
 .about-section {
     height: 100vh; /*Makes the height of the element's content equivalent to the viewport height*/
+    display: flex;
+    flex-direction: column; /*We want the header to be positioned vertically above the rest of the content*/
+    align-items: center; /*determines how items are positioned along the cross-axis (row, in this case)*/
+}
+
+/*Holds the image and the text*/
+.about-content {
+    display: flex;
+    flex-direction: row; /*We want text and image elements to be positioned side-by-side one another*/
+    justify-content: space-between;
+    gap: 4em;
 }
 
 .about-me-text {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 2em;
-    margin-left: auto; /*Uses all the available space on left of container as the width of the left-margin*/
-    margin-right: 6em;
-    text-align: left;
-    
+    position: relative;
+    top: 6em;
+    color: white;    
     max-width: 40%; /*sets the maximum width of the container to 45% of the viewport width*/
     white-space: normal; /*Allows text to wrap onto next line once edge of container reached*/
     word-break: break-word; /*Breaks long, continuous string of text without spaces so that it wraps to next line instead of keeping it on same line*/
+    margin-left: auto;
 }
 
-.about-me-text p {
-    margin-top: 0.5em; /*puts different lines of text closer together*/
+.my-pic {
+    opacity: 0.9;
+    position: relative;
+    top: 6em;
+    margin-right: auto;
 }
+
+#about-me-description {
+    position: relative;
+    top: 1em;
+}
+
 
 
