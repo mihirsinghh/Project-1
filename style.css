@@ -126,3 +126,16 @@ About me page classes
 
 
 
+/*
+About me page classes
+*/
+
+.skills-section {
+    height: 100vh; /*Makes the height of the element's content equivalent to the viewport height*/
+    display: flex;
+    flex-direction: column; /*We want the header to be positioned vertically above the rest of the content*/
+    align-items: center; /*determines how items are positioned along the cross-axis (row, in this case)*/
+}
+
+
+
