@@ -140,9 +140,8 @@ Skills page classes
 .skills-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
     gap: 2em;
+    margin-top: 6em;
 }
 
 .box {
@@ -151,11 +150,18 @@ Skills page classes
     background-color: rgb(34, 34, 131);
 }
 
+.box-img {
+    position: relative;
+    left: 6em;
+    top: 2em;
+}
+
 .box-title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 6em;
+    margin-top: 3em;
+    margin-bottom: auto;
     color: orange;
 }
 
