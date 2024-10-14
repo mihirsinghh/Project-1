@@ -192,31 +192,39 @@ Skills page classes
 Project page classes
 */
 
+.project-page-header {
+    width: 100%; /*Makes the header box as wide as the viewport*/
+    text-align: center; /*Centers header text in its box*/
+    color: orange;
+    font-size: 1.3rem;
+}
+
 .projects-page {
     height: 100vh; 
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column; /*Aligns contents of page vertically*/
+    align-items: flex-start; /*Begins alignment at the start of the row (left side of page)*/
 }
 
-.projects-page-content {
+.project-page-content {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column; /*Aligns contents of page vertically*/
+    justify-content: space-between; /*Aligns contents vertically with equal space between each item*/
     gap: 2rem;
-    align-items: flex-start;
     margin-top: 2rem;
 }
 
 .project-desc-img-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*Aligns project text and media horizontally*/
     justify-content: space-between;
+    gap: 8rem;
 }
 
 .project-desc {
     color: rgb(142, 72, 255);
     width: 40vw;
     font-size: 12px;
+    margin-left: 4rem;
 }
 
