@@ -184,3 +184,39 @@ Skills page classes
     justify-content: space-between; 
     gap: 1em;
 }
+
+
+
+
+/*
+Project page classes
+*/
+
+.projects-page {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.projects-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.project-desc-img-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-desc {
+    color: rgb(142, 72, 255);
+    width: 40vw;
+    font-size: 12px;
+}
+
