@@ -130,38 +130,37 @@ About me page classes
 Skills page classes
 */
 
-.skills-section {
-    height: 100vh; /*Makes the height of the element's content equivalent to the viewport height*/
+.skills-page {
+    height: 100vh; 
     display: flex;
-    flex-direction: column; /*We want the header to be positioned vertically above the rest of the content*/
-    align-items: center; /*determines how items are positioned along the cross-axis (row, in this case)*/
+    flex-direction: column; 
+    align-items: center; 
 }
 
-.skills-content {
+.skill-page-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /*arranges items on page horizontally*/
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
+}
+
+.box-languages-wrapper {
+    display: flex;
+    flex-direction: column; /*Arrange box and languages-container vertically*/
+    align-items: flex-start;
 }
 
 .box {
     width: 300px;
     height: 250px;
     background-color: rgb(34, 34, 131);
-}
-
-.box-img {
-    position: relative;
-    left: 6rem;
-    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3rem;
-    margin-bottom: auto;
     color: orange;
 }
 
@@ -171,21 +170,17 @@ Skills page classes
     font-size: 80%;
 }
 
-.language-section {
+.languages-container {
+    margin-top: 2rem;
     display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
-    top: 5rem;
-    color: orange;
+    flex-direction: column; /*Stacks the lines of text in the language container vertically*/
+    gap: 0.5rem;
 }
 
-.language-section-right-col {
-    display: flex;
-    flex-direction: row; 
-    align-items: flex-end;
-    position: relative;
-    top: 5rem;
+.languages-line {
     color: orange;
+    display: flex;
+    flex-direction: row; /*Arranges the words on each line horizontally*/
+    justify-content: space-between; 
+    gap: 1em;
 }
