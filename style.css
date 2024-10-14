@@ -12,7 +12,7 @@ body, html {
     justify-content: center; /*Controls horizontal alignment of items along main axis*/
     align-items: flex-start; /*Controls vertical alignment of items along cross axis*/
     color: orange;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .header p {
@@ -49,7 +49,7 @@ Home page classes
 /*Modifies all a elements whose parent has the nav-bar class*/
 .nav-bar a {
     color: orange;
-    padding: 2em 2em; /*adjusts spacing within the content of each <a> element and its border*/
+    padding: 2rem 2rem; /*adjusts spacing within the content of each <a> element and its border*/
 }
 
 .intro-text {
@@ -59,12 +59,12 @@ Home page classes
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 3rem;
 }
 
 .intro-text #line1 {
     position: relative; /*shifts the first <p> element relative to its position in the <div>*/
-    top: 2em;
+    top: 2rem;
 }
 
 .homepage-links {
@@ -88,7 +88,7 @@ About me page classes
 */
 
 .about-section {
-    height: 100vh; /*Makes the height of the element's content equivalent to the viewport height*/
+    min-height: 100vh; /*Makes the height of the element's content equivalent to the viewport height*/
     display: flex;
     flex-direction: column; /*We want the header to be positioned vertically above the rest of the content*/
     align-items: center; /*determines how items are positioned along the cross-axis (row, in this case)*/
@@ -99,7 +99,7 @@ About me page classes
     display: flex;
     flex-direction: row; /*We want text and image elements to be positioned side-by-side one another*/
     justify-content: space-between;
-    gap: 4em;
+    gap: 4rem;
 }
 
 .about-me-text {
@@ -115,13 +115,13 @@ About me page classes
 .my-pic {
     opacity: 0.9;
     position: relative;
-    top: 6em;
+    top: 6rem;
     margin-right: auto;
 }
 
 #about-me-description {
     position: relative;
-    top: 1em;
+    top: 1rem;
 }
 
 
@@ -140,8 +140,8 @@ Skills page classes
 .skills-content {
     display: flex;
     flex-direction: row;
-    gap: 2em;
-    margin-top: 6em;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 .box {
@@ -152,15 +152,15 @@ Skills page classes
 
 .box-img {
     position: relative;
-    left: 6em;
-    top: 2em;
+    left: 6rem;
+    top: 2rem;
 }
 
 .box-title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 3rem;
     margin-bottom: auto;
     color: orange;
 }
@@ -169,4 +169,23 @@ Skills page classes
     color: rgb(203, 3, 203);
     text-align: center;
     font-size: 80%;
+}
+
+.language-section {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    top: 5rem;
+    color: orange;
+}
+
+.language-section-right-col {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end;
+    position: relative;
+    top: 5rem;
+    color: orange;
 }
