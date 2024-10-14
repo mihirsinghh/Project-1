@@ -152,7 +152,7 @@ Skills page classes
 
 .box {
     width: 25vw;
-    height: 40vh;
+    height: 35vh;
     background-color: rgb(34, 34, 131);
     display: flex;
     flex-direction: column;
@@ -164,7 +164,7 @@ Skills page classes
     color: orange;
 }
 
-.inner-text {
+.box-inner-text {
     color: rgb(203, 3, 203);
     text-align: center;
     font-size: 80%;
