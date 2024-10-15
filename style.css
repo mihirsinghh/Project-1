@@ -151,8 +151,8 @@ Skills page classes
 }
 
 .box {
-    width: 25vw;
-    height: 35vh;
+    width: 300px;
+    height: 200px;
     background-color: rgb(34, 34, 131);
     display: flex;
     flex-direction: column;
@@ -203,28 +203,42 @@ Project page classes
     height: 100vh; 
     display: flex;
     flex-direction: column; /*Aligns contents of page vertically*/
-    align-items: flex-start; /*Begins alignment at the start of the row (left side of page)*/
+    align-items: flex-start; 
 }
 
 .project-page-content {
     display: flex;
     flex-direction: column; /*Aligns contents of page vertically*/
-    justify-content: space-between; /*Aligns contents vertically with equal space between each item*/
+    justify-content: space-between; 
     gap: 2rem;
     margin-top: 2rem;
 }
 
 .project-desc-img-wrapper {
     display: flex;
-    flex-direction: row; /*Aligns project text and media horizontally*/
+    flex-direction: row; /*Aligns elements nested within the wrapper horizontally*/
     justify-content: space-between;
-    gap: 8rem;
+    gap: 10rem;
 }
 
+.project-header {
+    color: rgb(237, 31, 237); 
+    font-size: 1.5rem; 
+    margin-left: 4rem;
+}
+
+.project-subheader {
+    color: rgb(237, 31, 237); 
+    font-size: 1rem; 
+    margin-left: 4rem;
+}
+
+
 .project-desc {
-    color: rgb(142, 72, 255);
+    color: rgb(255, 255, 255);
     width: 40vw;
     font-size: 12px;
     margin-left: 4rem;
 }
+
 
