@@ -280,11 +280,8 @@ Project page classes
     color: white;
     display: flex;
     flex-direction: row;
-}
-
-.contact-info {
-    position: relative; /*Positions <p> element relative to its parent icon-info wrapper*/
-    left: 2rem;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .message-form-wrapper {
