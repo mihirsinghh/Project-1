@@ -263,7 +263,10 @@ Project page classes
 .contact-info-form-wrapper {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    gap: 8rem;
+    position: relative; /*Positions wrapper relative to contact-page <div> element*/
+    top: 5rem;
 }
 
 .contact-info-column {
@@ -280,6 +283,18 @@ Project page classes
 }
 
 .contact-info {
-    position: relative;
+    position: relative; /*Positions <p> element relative to its parent icon-info wrapper*/
     left: 2rem;
+}
+
+.message-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; /*Positions message-form wrapper relative to its parent contact-info-form wrapper*/
+    left: 2rem;
+}
+
+.subscribe-message {
+    color: white;
 }
