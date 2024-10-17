@@ -54,12 +54,12 @@ Home page classes
 
 .intro-text {
     color: orange;
-    font-size: 1.2em;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 60px;
 }
 
 .intro-text #line1 {
