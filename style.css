@@ -34,7 +34,7 @@ Home page classes
     right: 0;
     width: 100%;
     height: 100%;
-    background-image: url('lake sky.jpg');
+    background-image: url('Media/lake sky.jpg');
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -44,9 +44,6 @@ Home page classes
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 10;
 }
 
 .nav-bar a {
@@ -112,6 +109,14 @@ About me page classes
     white-space: normal; /*Allows text to wrap onto next line once edge of container reached*/
     word-break: break-word; /*Breaks long, continuous string of text without spaces so that it wraps to next line instead of keeping it on same line*/
     margin-left: auto;
+}
+
+.about-me-text a {
+    color: rgb(199, 199, 255);
+}
+
+.about-me-text a:hover {
+    color: blue;
 }
 
 .my-pic {
