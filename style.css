@@ -54,12 +54,12 @@ Home page classes
 
 .intro-text {
     color: orange;
-    font-size: 20px;
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 3rem;
 }
 
 .intro-text #line1 {
@@ -193,7 +193,7 @@ Project page classes
 */
 
 .projects-page {
-    height: 100vh; 
+    height: 200vh; 
     display: flex;
     flex-direction: column; /*Aligns child elements (header and page content) vertically*/
     align-items: center; /*in the center of the page*/
@@ -231,7 +231,6 @@ Project page classes
     margin-left: 4rem;
 }
 
-
 .project-desc {
     color: rgb(255, 255, 255);
     width: 40vw;
@@ -245,3 +244,22 @@ Project page classes
 }
 
 
+
+
+/*Contact page classes*/
+
+.contact-page {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.contact-page-header {
+    color: orange;
+    font-size: 1.3rem;
+}
+
+.contact-info-form-wrapper {
+
+}
