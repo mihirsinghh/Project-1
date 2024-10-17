@@ -261,5 +261,25 @@ Project page classes
 }
 
 .contact-info-form-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.contact-info-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.icon-info-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info {
+    position: relative;
+    left: 2rem;
 }
